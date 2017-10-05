@@ -47,6 +47,8 @@ public class CustomDialog extends DialogFragment {
             }
         });
 
+        builder.setTitle("Login");
+
         Dialog dialog = builder.create();
         return dialog;
     }
